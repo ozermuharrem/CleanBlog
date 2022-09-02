@@ -54,7 +54,7 @@ Kolay Gelsin.
 
 ## 3.Bölüm 
 
-[İkinci Bölüm](https://app.patika.dev/courses/nodejs/odev9)
+[Üçüncü Bölüm](https://app.patika.dev/courses/nodejs/odev9)
 
 Clean Blog projemizin bu 3. bölümünde aşağıdaki işlemleri yapalım.
 
@@ -65,6 +65,25 @@ Clean Blog projemizin bu 3. bölümünde aşağıdaki işlemleri yapalım.
 + title:String, detail:String, dateCreated:Date(default now) özelliklerine sahip Post modelini oluşturalım.
 + Veri tabanımızda 3 adet pos dökümanı oluşturalım.
 + Oluşturduğumuz post dökümanlarını Blog sitemizin anasayfasında gösterelim.
+
+
+Kolay Gelsin.
+
+******************************************************************************************
+
+## 4. Bölüm
+
+[Dördüncü Bölüm](https://app.patika.dev/courses/nodejs/odev10)
+
+
+Clean Blog projemizin bu 4. bölümünde aşağıdaki işlemleri yapalım.
+
+
+
++ index.ejs içerisinde /posts/<%= posts[i]._id %> ile _id bilgisini gönderelim.
++ app.js içerisinde GET metoduyla "/posts/:id" ile gönderilen "_id" yi yakalayalım. .
++ tekil post bilgilerini post.ejs dosyasına gönderelim.
++ post.ejs içerisine post.title, post.detail ve post.dateCreated bilgilerini gönderelim. (her bir post için ayrı image kullanmayacağız)
 
 
 Kolay Gelsin.
