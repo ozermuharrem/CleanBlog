@@ -87,3 +87,21 @@ Clean Blog projemizin bu 4. bölümünde aşağıdaki işlemleri yapalım.
 
 
 Kolay Gelsin.
+
+******************************************************************************************
+
+## 5. Bölüm
+
+[Beşinci Bölüm](https://app.patika.dev/courses/nodejs/odev11)
+
+
+
+Clean Blog projemizin bu 5. bölümünde aşağıdaki işlemleri yapalım.
+
++ post.ejs template içerisinde UPDATE ve DELETE butonu oluşturalım.
++ Herhangi bir post verisini güncellemek için gerekli çalışmaları yapalım.
++ Herhangi bir post verisini silmek için gerekli çalışmaları yapalım.
++ Kodumuzu MVC yapısına göre tekrar düzenleyelim.
+
+Kolay Gelsin.
+
