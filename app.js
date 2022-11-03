@@ -14,9 +14,13 @@ const app = express();
 
 //mongodb
 
-mongoose.connect('mongodb://localhost/cleanblog-test-db', {
+mongoose.connect('mongodb+srv://mozer:zYMfffDNYAJsNdwT@cluster0.l7qh0jy.mongodb.net/CleanBlog-Db?retryWrites=true&w=majority', {
   useNewUrlParser:true,
   useUnifiedTopology:true
+}).then(()=>{
+  console.log("db baglandı")
+}).catch((error)=>{
+  console.log(error);
 });
 
 
@@ -56,7 +60,10 @@ app.put('/blog/:id', postControl.updatePost)
 
 app.delete('/blog/:id', postControl.deletePost)
 
-
-app.listen(6060, () => {
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
   console.log(`server start`);
 });
+
+
+//zYMfffDNYAJsNdwT
