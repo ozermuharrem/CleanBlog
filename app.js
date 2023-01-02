@@ -14,7 +14,7 @@ const app = express();
 
 //mongodb
 
-mongoose.connect('mongodb+srv://mozer:zYMfffDNYAJsNdwT@cluster0.l7qh0jy.mongodb.net/CleanBlog-Db?retryWrites=true&w=majority', {
+mongoose.connect('mongodb://localhost:27017/cleanBlog-db', {
   useNewUrlParser:true,
   useUnifiedTopology:true
 }).then(()=>{
